@@ -12,14 +12,15 @@
         <nav class="text-white text-[20px] font-bold flex items-center justify-between max-w-300 m-auto p-5">
             <div class="flex gap-3 items-center">
                 <img src="./Vector.png" alt="">
-                <p>Скидка 20% на первый заказ</p>
+                <p class="lg:block hidden">Скидка 20% на первый заказ</p>
+                <p class="lg:hidden block">Скидка 10% при заказе от 2х недель</p>
             </div>
-            <p class="flex gap-3 items-center">Заказать <img src="./Group.png" alt=""></p>
+            <p class="lg:flex hidden gap-3 items-center">Заказать <img src="./Group.png" alt=""></p>
         </nav>
         </div>
         <div class="flex items-center justify-between max-w-350 m-auto p-10">
             <img src="./Group 161.png" alt="">
-            <div class="flex gap-5">
+            <div class="lg:flex hidden gap-5">
                 <p>Подбор рациона</p>
                 <p>Программы питания</p>
                 <p>О нас</p>
@@ -28,23 +29,24 @@
                 <p>FAQ</p>
                 <p>Отзывы</p>
             </div>
-            <div class="text-end">
+            <div class="text-end lg:block hidden">
                 <p class="text-[#4D8F76]">Перезвоните мне</p>
                 <h1 class="text-[20px] font-bold">+7 988 500-1-700</h1>
                 <p>c 9 : 00 до 21 : 00</p>
             </div>
+            <img class="lg:hidden block" src="./Group 82.png" alt="">
         </div>
-        <div class="flex items-center justify-between max-w-350 m-auto p-10">
+        <div class="lg:flex block items-center justify-between max-w-350 m-auto p-10">
             <div>
                 <h1 class="text-[40px] font-bold mb-7">Доставка прогрессивного <br> питания для гурманов</h1>
-                <div class="flex gap-5">
-                    <button class="py-3 px-10 bg-[#4D8F76] text-white rounded-2xl">Подобрать питание</button>
-                    <button class="py-4 px-10 border border-solid border-[#4D8F76] rounded-2xl text-[#4D8F76]">Получить консультацию</button>
+                <div class="lg:flex block gap-5">
+                    <button class="py-3 px-10 mb-5 bg-[#4D8F76] text-white rounded-2xl">Подобрать питание</button>
+                    <button class="py-4 px-10 mb-5 border border-solid border-[#4D8F76] rounded-2xl text-[#4D8F76]">Получить консультацию</button>
                 </div>
             </div>
             <img src="./Screenshot 2025-12-27 193821.png" alt="">
         </div>
-        <div class="flex items-center justify-between max-w-350 m-auto p-10">
+        <div class="lg:flex-row flex flex-col-reverse items-center justify-between max-w-350 m-auto p-10">
             <img src="./Group.svg" alt="">
             <div>
                 <h1 class="text-[40px] font-bold mb-7">Еда, которая сделает тебя лучше!</h1>
@@ -52,7 +54,7 @@
                 <p class="mb-5">Для этого мы создали новый уникальный продукт на рынке доставки еды и <br> приглашаем вас окунуться в гастрономический шик уже сегодня.</p>
             </div>
         </div>
-        <div class="flex items-center justify-between max-w-350 m-auto p-10">
+        <div class="lg:flex block items-center justify-between max-w-350 m-auto p-10">
             <div>
                 <h1 class="text-[40px] font-bold mb-7">Изысканное меню высокой кухни</h1>
                 <p class="mb-5">В наших блюдах мы продумали каждую деталь, все ингредиенты тщательно <br> подобраны и создают неповторимый вкус.</p>
@@ -60,20 +62,20 @@
             </div>
             <img src="./Frame.svg" alt="">
         </div>
-        <div class="bg-[#E2DDC0] px-50 py-10 max-w-500 m-auto rounded-4xl">
+        <div class="bg-[#E2DDC0] px-50 py-10 max-w-500 m-auto rounded-4xl lg:block hidden">
           <h1 class="text-[40px] font-bold mb-7">Подберите рацион для своих целей</h1>
-          <div class="flex items-center justify-between max-w-350 m-auto p-10">
-            <p class="py-3 px-10 bg-white rounded-2xl">Ж М</p>
-            <p class="py-3 px-10 bg-white rounded-2xl">Ваш вес</p>
-            <p class="py-3 px-10 bg-white rounded-2xl">Ваш рост</p>
-            <p class="py-3 px-10 bg-white rounded-2xl">Ваш возраст</p>
-            <p class="py-3 px-10 bg-white rounded-2xl flex items-center gap-5">Активность <img src="./Vector (1).png" alt=""></p>
-            <p class="py-3 px-10 bg-white rounded-2xl flex items-center gap-5">Выберите цель <img src="./Vector (1).png" alt=""></p>
+          <div class="lg:flex block items-center justify-between max-w-350 m-auto p-10">
+            <p class="py-3 px-10 mb-5 bg-white rounded-2xl">Ж М</p>
+            <p class="py-3 px-10 mb-5 bg-white rounded-2xl">Ваш вес</p>
+            <p class="py-3 px-10 mb-5 bg-white rounded-2xl">Ваш рост</p>
+            <p class="py-3 px-10 mb-5 bg-white rounded-2xl">Ваш возраст</p>
+            <p class="py-3 px-10 mb-5 bg-white rounded-2xl flex items-center gap-5">Активность <img src="./Vector (1).png" alt=""></p>
+            <p class="py-3 px-10 mb-5 bg-white rounded-2xl flex items-center gap-5">Выберите цель <img src="./Vector (1).png" alt=""></p>
             <button class="py-3 px-10 bg-[#4D8F76] text-white rounded-2xl">Рассчитать рацион</button>
           </div>
         </div>
         <div class="bg-white rounded-4xl max-w-450 m-auto">
-        <div class="flex items-center justify-between max-w-400 m-auto p-10 mt-25">
+        <div class="lg:flex block items-center justify-between max-w-400 m-auto p-10 mt-25">
             <h1 class="text-[40px] font-bold">Программа ПремиумБоул</h1>
             <div class="flex items-center">
                 <img src="./Group (1).png" alt="">
@@ -82,40 +84,40 @@
         </div>
         <div class="max-w-400 m-auto">
             <h1 class="text-[20px]">Калорийность</h1>
-            <div class="flex items-center justify-between max-w-400 m-auto p-10">
-                <div class="py-3 px-10 border border-solid border-black rounded-3xl text-center w-60">
+            <div class="lg:flex block items-center justify-between max-w-400 m-auto p-10">
+                <div class="py-3 px-10 mb-5 border border-solid border-black rounded-3xl text-center w-60">
                     <h1 class="text-[25px] font-bold">900 ккал</h1>
                     <p>3 блюда</p>
                 </div>
-                <div class="py-3 px-10 rounded-3xl text-center bg-[#DFCCB7] w-60">
+                <div class="py-3 px-10 mb-5 rounded-3xl text-center bg-[#DFCCB7] w-60">
                     <h1 class="text-[25px] font-bold">1 250 ккал </h1>
                     <p>4 блюда</p>
                 </div>
-                <div class="py-3 px-10 border border-solid border-black rounded-3xl text-center w-60">
+                <div class="py-3 px-10 mb-5 border border-solid border-black rounded-3xl text-center w-60">
                     <h1 class="text-[25px] font-bold">1 600 ккал</h1>
                     <p>5 блюд</p>
                 </div>
-                <div class="py-3 px-10 border border-solid border-black rounded-3xl text-center w-60">
+                <div class="py-3 px-10 mb-5 border border-solid border-black rounded-3xl text-center w-60">
                     <h1 class="text-[25px] font-bold">2 050 ккал</h1>
                     <p>6 блюд</p>
                 </div>
-                <div class="py-3 px-10 border border-solid border-black rounded-3xl text-center w-60">
+                <div class="py-3 px-10 mb-5 border border-solid border-black rounded-3xl text-center w-60">
                     <h1 class="text-[20px] font-bold">индивидуально <br> подобрать</h1>
                 </div>
             </div>
         </div>
         <div class="max-w-400 m-auto">
             <h1 class="text-[20px]">Продолжительность</h1>
-            <div class="flex items-center justify-between max-w-400 m-auto p-10">
-                <div class="py-3 px-10 border border-solid border-black rounded-3xl text-center w-60">
+            <div class="lg:flex block items-center justify-between max-w-400 m-auto p-10">
+                <div class="py-3 px-10 mb-5 border border-solid border-black rounded-3xl text-center w-60">
                     <h1 class="text-[25px] font-bold">Пробные 2 дня</h1>
                     <p>за 2 900 ₽</p>
                 </div>
-                <div class="py-3 px-10 border border-solid border-black rounded-3xl text-center w-60">
+                <div class="py-3 px-10 mb-5 border border-solid border-black rounded-3xl text-center w-60">
                     <h1 class="text-[25px] font-bold">1 неделя</h1>
                     <p>1 700 ₽ в день</p>
                 </div>
-                <div  class="py-3 px-10 rounded-3xl text-center bg-[#DFCCB7] w-60">
+                <div  class="py-3 px-10 mb-5 rounded-3xl text-center bg-[#DFCCB7] w-60">
                     <h1 class="text-[25px] font-bold">2 недели</h1>
                     <p>1 600 ₽ в день</p>
                 </div>
@@ -123,22 +125,22 @@
                     <h1 class="text-[25px] font-bold">3 недели</h1>
                     <p>1 520 ₽ в день</p>
                 </div>
-                <div class="py-3 px-10 border border-solid border-black rounded-3xl text-center w-60">
+                <div class="py-3 px-10 mb-5 border border-solid border-black rounded-3xl text-center w-60">
                     <h1 class="text-[20px] font-bold">4 недели</h1>
                     <p>1 450 ₽  в день</p>
                 </div>
             </div>
         </div>
-        <div class="flex items-center justify-between max-w-400 m-auto p-10 text-center font-bold text-[20px]">
-            <p class="py-3 px-10 rounded-2xl border border-solid border-black w-50">понедельник</p>
-            <p class="py-3 px-10 rounded-2xl border border-solid border-black w-50">вторник</p>
-            <p class="py-3 px-10 rounded-2xl border border-solid border-black w-50">четверг</p>
-            <p class="py-3 px-10 rounded-3xl text-center bg-[#DFCCB7] w-50">пятница</p>
-            <p class="py-3 px-10 rounded-2xl border border-solid border-black w-50">суббота</p>
-            <p class="py-3 px-10 rounded-2xl border border-solid border-black w-50">воскресенье</p>
+        <div class="lg:flex block items-center justify-between max-w-400 m-auto p-10 text-center font-bold text-[20px]">
+            <p class="py-3 px-10 mb-5 rounded-2xl border border-solid border-black w-50">понедельник</p>
+            <p class="py-3 px-10 mb-5 rounded-2xl border border-solid border-black w-50">вторник</p>
+            <p class="py-3 px-10 mb-5 rounded-2xl border border-solid border-black w-50">четверг</p>
+            <p class="py-3 px-10 mb-5 rounded-3xl text-center bg-[#DFCCB7] w-50">пятница</p>
+            <p class="py-3 px-10 mb-5 rounded-2xl border border-solid border-black w-50">суббота</p>
+            <p class="py-3 px-10 mb-5 rounded-2xl border border-solid border-black w-50">воскресенье</p>
         </div>
      
-     <div class="flex items-center justify-between max-w-450 m-auto p-10">
+     <div class="lg:flex block items-center justify-between max-w-450 m-auto p-10">
         <div class="w-70 p-5">
             <img src="./image_1_1.png" alt="">
             <p class="text-[#A98C64]">Завтрак    230/250 гр</p>
@@ -161,22 +163,22 @@
         </div>
       </div>
      </div>
-     <div class="flex items-center justify-between max-w-400 m-auto p-10 bg-[#A2BE95] rounded-4xl text-center mt-20">
+     <div class="lg:flex block items-center justify-between max-w-400 m-auto p-10 bg-[#A2BE95] rounded-4xl text-center mt-20">
         <div>
             <button class="py-3 px-10 bg-[#4D8F76] text-white rounded-2xl mb-5">Заказать 10 дней питания за 16 000 ₽</button>
             <p class="text-white">1 250 ккал за 1 600 ₽ в день</p>
         </div>
-        <div class="flex items-center gap-10">
+        <div class="lg:flex block items-center gap-10">
             <img src="./Group 62.png" alt="">
-     <div>
+        <div>
         <h1 class="text-[30px] font-bold text-white">Будем доставлять наборы каждый день.</h1>
         <p class="text-white">Доставка осуществляется каждый день с 06:00 до 12:00. Выбор интервала — 2 часа. <br> Заявки принимаются не позднее, чем за день до предполагаемой доставки.</p>
-      </div>
+        </div>
         </div>
      </div>
      <div  class="max-w-400 m-auto mt-25">
         <h1 class="text-[40px] font-bold">О нашем сервисе</h1>
-        <div class="flex items-center justify-between max-w-400 m-auto p-10">
+        <div class="lg:flex block items-center justify-between max-w-400 m-auto p-10">
             <div>
                 <img class="mb-7" src="./Group 39.png" alt="">
                 <h1 class="text-[20px] font-bold mb-7">Мы используем деликатные <br> технологии приготовления блюд</h1>
@@ -193,7 +195,7 @@
                 <p>Без молочки, белой муки, сахара, консервантов, <br> усилителей вкуса и глубокой прожарки. А также <br> мы испольузем сыродавленные масла <br> собственного производства</p>
             </div>
         </div>
-        <div class="flex items-center justify-between max-w-400 m-auto p-10">
+        <div class="lg:flex block items-center justify-between max-w-400 m-auto p-10">
             <div>
                 <img class="mb-7" src="./Group 42.png" alt="">
                 <h1 class="text-[20px] font-bold mb-7">Гарантия возврата</h1>
@@ -211,23 +213,23 @@
             </div>
         </div>
      </div>
-     <div class="flex items-center justify-between max-w-400 m-auto p-10">
+     <div class="lg:flex-row flex flex-col-reverse items-center justify-between max-w-400 m-auto p-10">
         <div>
             <h1 class="text-[30px] font-bold text-[#4D8F76] mb-7">Попробуйте новый формат рационов — Боулы! <br> Это богатый набор полезных веществ и масса вкусовых впечатлений!</h1>
             <p class="mb-7">Боулы — это сбалансированный вариант блюда, содержащего в себе все необходимые <br> элементы за счёт большого количества компонентов. Ингредиенты блюда не <br> смешиваются между собой, а не спеша поедаются по отдельности.</p>
             <p class="mb-7">Мы готовим полноценное здоровое питание на день и ежедневно доставляем утром <br> к вашим дверям.</p>
             <p class="mb-7">Наш сервис помогает экономить время, поддерживать стройность, <br> работоспособность и укреплять здоровье. </p>
         </div>
-        <div class="flex items-center gap-5">
-            <img src="./Group 169.png" alt="">
+        <div class="lg:flex block items-center gap-5">
+            <img class="lg:block hidden" src="./Group 169.png" alt="">
             <img src="./Mask Group.png" alt="">
-            <img src="./Group 44.png" alt="">
+            <img class="lg:block hidden" src="./Group 44.png" alt="">
         </div>
      </div>
         <div class="max-w-400 m-auto mt-25 bg-[#F4EDDE] p-10 rounded-4xl">
             <h1 class="text-[40px] font-bold mb-5">Карта доставки</h1>
             <p class="text-[20px]">Доставка осуществляется каждый день с 06:00 до 12:00. <br> Выбор интервала — 2 часа.</p>
-            <div class="flex items-center justify-around max-w-400 m-auto p-10 mb-10">
+            <div class="lg:flex block items-center justify-around max-w-400 m-auto p-10 mb-10">
                 <img src="./image 2.png" alt="">
                 <div>
                     <p class="px-10 py-3 mb-7 border-2 rounded-2xl border-solid border-e-green-500">По городу бесплатно</p>
@@ -240,44 +242,44 @@
                 </div>
             </div>
             <h1 class="text-[40px] font-bold mb-7">Частые вопросы</h1>
-            <div class="flex gap-10">
-                <p class="w-63.5 text-center rounded-2xl py-3 px-5 text-[20px] border border-solid border-black">Продукты</p>
-                <p class="w-63.5 text-center rounded-2xl py-3 px-5 text-[20px] border border-solid border-black">Программы</p>
-                <p class="w-63.5 text-center rounded-2xl py-3 px-5 text-[20px] bg-[#DFCCB7]">Оплата и доставка</p>
-                <p class="w-63.5 text-center rounded-2xl py-3 px-5 text-[20px] border border-solid border-black">Хранение</p>
+            <div class="lg:flex block gap-10">
+                <p class="w-63.5 mb-5 text-center rounded-2xl py-3 px-5 text-[20px] border border-solid border-black">Продукты</p>
+                <p class="w-63.5 mb-5 text-center rounded-2xl py-3 px-5 text-[20px] border border-solid border-black">Программы</p>
+                <p class="w-63.5 mb-5 text-center rounded-2xl py-3 px-5 text-[20px] bg-[#DFCCB7]">Оплата и доставка</p>
+                <p class="w-63.5 mb-5 text-center rounded-2xl py-3 px-5 text-[20px] border border-solid border-black">Хранение</p>
             </div>
         </div>
         <div class="max-w-400 m-auto p-10">
             <div class="flex items-center gap-230 p-10 bg-white mb-7 rounded-3xl">
                 <p class="text-[20px] font-bold">Как я могу оплатить заказ?</p>
-                <img src="./Vector (1).png" alt="">
+                <img class="lg:block hidden" src="./Vector (1).png" alt="">
             </div>
             <div class="flex items-center gap-50 p-10 bg-white mb-7 rounded-3xl">
                 <div>
                     <p class="text-[20px] font-bold mb-3">Могу ли я изменить адрес и время доставки?</p>
                     <p>Каждый вечер, в день доставки, с вами связывается курьер, ориентировочно с 19:00 до 20:00 для уточнения адреса и времени доставки. <br>  При необходимости, вы можете их изменить, сообщив об этом курьеру при звонке.</p>
                 </div>
-                <img src="./Vector (2).png" alt="">
+                <img class="lg:block hidden" src="./Vector (2).png" alt="">
             </div>
             <div class="flex items-center gap-212 p-10 bg-white mb-7 rounded-3xl">
                 <p class="text-[20px] font-bold">Могу ли я перенести день доставки?</p>
-                <img src="./Vector (1).png" alt="">
+                <img class="lg:block hidden" src="./Vector (1).png" alt="">
             </div>
             <div class="flex items-center gap-175 p-10 bg-white mb-7 rounded-3xl">
                 <p class="text-[20px] font-bold">Могу ли я приостановить доставку, на какой срок?</p>
-                <img src="./Vector (1).png" alt="">
+                <img class="lg:block hidden" src="./Vector (1).png" alt="">
             </div>
         </div>
-        <div class="bg-[#A2BE95] rounded-4xl flex items-center justify-around max-w-400 m-auto p-10">
+        <div class="bg-[#A2BE95] rounded-4xl lg:flex block items-center justify-around max-w-400 m-auto p-10">
             <div>
                 <h1 class="text-white text-[40px] font-bold mb-7">Бесплатная консультация <br> диетолога</h1>
-                <div class="mb-7 flex gap-5 items-center">
-                    <input class="px-20 py-3 rounded-3xl bg-white" type="text" placeholder="Ваше имя">
-                    <input class="px-20 py-3 rounded-3xl bg-white" type="number" placeholder="Телефон">
+                <div class="mb-7 lg:flex block gap-5 items-center">
+                    <input class="px-20 py-3 mb-5 rounded-3xl bg-white" type="text" placeholder="Ваше имя">
+                    <input class="px-20 py-3  rounded-3xl bg-white" type="number" placeholder="Телефон">
                 </div>
-                <div class="flex gap-5 items-center">
-                    <button class="py-3 px-10 bg-[#4D8F76] text-white rounded-2xl">Отправить заявку</button>
-                    <div class="flex items-center gap-5">
+                <div class="lg:flex block gap-5 items-center">
+                    <button class="py-3 px-10 mb-5 bg-[#4D8F76] text-white rounded-2xl">Отправить заявку</button>
+                    <div class="flex mb-5 items-center gap-5">
                         <img src="./Group 14.svg" alt="">
                         <p class="text-white">Нутрициолог Вероника <br> vnk_fitness</p>
                     </div>
@@ -290,7 +292,7 @@
             <p class="mb-7">Сомневаетесь? Протестируйте наш сервис и еду. <br> Начните с пробного меню на два дня со скидкой 20% за 2 800 ₽ (1 200 ккал)</p>
             <button class="py-3 px-10 bg-[#4D8F76] text-white rounded-2xl">Попробовать</button>
         </div>
-        <div class="bg-[#B89683] p-10 rounded-4xl flex items-center justify-around max-w-400 m-auto">
+        <div class="bg-[#B89683] p-10 rounded-4xl lg:flex block items-center justify-around max-w-400 m-auto">
             <div>
                 <h1 class="text-[40px] font-bold mb-7 text-white">Будьте всегда в курсе!</h1>
                 <div class="flex items-center gap-3">
@@ -298,9 +300,35 @@
                     <p class="text-white">Подпишитесь на рассылку и будьте всегда в курсе новинок, акций и новостей!</p>
                 </div>
             </div>
-            <div class="flex items-center gap-5">
-                <input class="px-20 py-3 rounded-3xl bg-white" type="email" placeholder="Укажите вашу почту">
+            <div class="lg:flex block items-center gap-5">
+                <input class="px-20 py-3 rounded-3xl bg-white mb-5" type="email" placeholder="Укажите вашу почту">
                 <button class="py-3 px-10 bg-[#4D8F76] text-white rounded-2xl">Подписаться</button>
+            </div>
+        </div>
+        <div class="lg:flex block items-center justify-around max-w-400 m-auto p-10 mt-20">
+            <div>
+                <h1 class="text-[25px] font-bold">+7 988 500-1-700</h1>
+                <p>Ежедневно c 09:00 до 21:00</p>
+            </div>
+            <h1 class="text-[25px] font-bold">hello@pora-poest.com</h1>
+            <div class="flex gap-5">
+                <img src="./Ellipse 25.png" alt="">
+                <img src="./Ellipse 25.png" alt="">
+                <img src="./Group 73.png" alt="">
+            </div>
+        </div>
+        <div class="lg:flex-row flex flex-col-reverse lg:text-start text-center items-end justify-around max-w-400 m-auto pb-20">
+            <div>
+                <p class="mb-7">ООО «ПораПоесть», г. Краснодар, ул. Кубанская Набережная улица, дом 5, офис 4</p>
+                <p>© 2021 ПораПоесть — сервис доставки прогрессивного питания. </p>
+                <p>Фотографии блюд на сайте являются вариантом сервировки блюда. Внешний вид блюда может отличаться от фотографии на сайте. <br> Указывая электронную почту и номер телефона на сайте, вы соглашаетесь с условиями Публичной оферты и Политикой конфедициальности</p>
+            </div>
+            <div class="flex gap-5 mb-5">
+                <img src="./image 13.png" alt="">
+                <img src="./image 14.png" alt="">
+                <img src="./image 15.png" alt="">
+                <img src="./image 16.png" alt="">
+                <img src="./image 17.png" alt="">
             </div>
         </div>
     </header>
